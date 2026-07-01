@@ -11,11 +11,13 @@
     "db:generate": "nuxt db generate"
   },
   "dependencies": {
+    "@nuxt/ui": "^4.9.0",
     "@nuxthub/core": "0.10.7",
     "drizzle-kit": "^0.31.10",
     "drizzle-orm": "^0.45.2",
     "mysql2": "^3.22.5",
     "nuxt": "^4.4.8",
+    "tailwindcss": "^4.3.2",
     "vue": "^3.5.38",
     "vue-router": "^5.1.0"
   },

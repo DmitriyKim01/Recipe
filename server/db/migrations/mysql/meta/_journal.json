@@ -8,6 +8,13 @@
       "when": 1782932777677,
       "tag": "0000_omniscient_mikhail_rasputin",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1782932920682,
+      "tag": "0001_quick_lady_mastermind",
+      "breakpoints": true
     }
   ]
 }

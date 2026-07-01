@@ -9,7 +9,5 @@ export const users = mysqlTable('users', {
 
   password: varchar({ length: 255 }).notNull(),
 
-  avatar: varchar({ length: 2048 }).notNull(),
-
   createdAt: timestamp().notNull().defaultNow(),
 });
