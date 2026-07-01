@@ -7,12 +7,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "db:generate": "nuxt db generate"
   },
   "dependencies": {
     "@nuxthub/core": "0.10.7",
+    "drizzle-kit": "^0.31.10",
+    "drizzle-orm": "^0.45.2",
+    "mysql2": "^3.22.5",
     "nuxt": "^4.4.8",
     "vue": "^3.5.38",
     "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }
